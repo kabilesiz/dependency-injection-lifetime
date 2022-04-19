@@ -22,6 +22,6 @@ Tam olarak farklılıklarının rahat anlaşılabilmesi için root patterna("/")
 ## Sonuçlar
 
 - Ilk istekte resimden de anlaşılacağı üzere transient 2 instance için 2 farklı sayı getirirken, hem scoped hemde singleton 2 instance için 2 sayıyıda aynı getirdi. Burada transient farkını anlamış olduk peki ya scoped ve singleton için durum nedir ? Hadi bir kere daha istek atalım.
-![İlk İstek](/Users/huseyin/RiderProjects/dependency-injection-lifetime/LifeCycleExamples/firstRequest.png)
+![İlk İstek](firstRequest.png)
 - Ikinci istekte görüldüğü üzere transient zaten farklı getiriken, scoped 2 sini yine aynı getirdi ama işe bakın ki ilk istekteki verilerden farklı peki singleton için durum ne genel bakışta anlattıgım gibi uygulama ayağa kalktıgı anda zaten yaratılan instance hiç değişmiyor.
-![İlk İstek](/Users/huseyin/RiderProjects/dependency-injection-lifetime/LifeCycleExamples/secondRequest.png)
+![İlk İstek](secondRequest.png)
